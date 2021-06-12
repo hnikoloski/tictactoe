@@ -14,7 +14,7 @@ const History = ({ history, moveTo, currentMove }) => {
                   moveTo(move);
                 }}
               >
-                {move === 0 ? 'Go to game start' : `Go to move #${move}`}
+                {move === 0 ? 'Start of game' : `move #${move}`}
               </button>
             </li>
           );
